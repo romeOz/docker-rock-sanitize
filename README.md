@@ -35,7 +35,11 @@ See Demo (one of two ways)
 vagrant ssh
 cd /var/www/rock-sanitize
 ```
- 
+
+Changelog "Rock sanitize"
+-------------------
+ * [Release 0.9.0](https://github.com/romeOz/rock-sanitize/releases/tag/0.9.0)
+  
 License
 -------------------
 
