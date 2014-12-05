@@ -1,0 +1,16 @@
+rootFolder: '/var/www/rock-sanitize'
+
+username: root
+
+user: www-data
+group: www-data
+
+php_error_reporting: E_ALL
+php_display_errors: On
+php_upload_max_filesize: 20M
+php_post_max_size: 25M
+
+vhosts:
+  [
+    { name: 'rock.sanitize', rootFolder: '/var/www/rock-sanitize'}
+  ]

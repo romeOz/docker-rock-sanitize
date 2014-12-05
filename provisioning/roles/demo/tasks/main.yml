@@ -1,0 +1,15 @@
+- name: Clone project
+  shell: composer create-project --dev romeoz/rock-sanitize {{ rootFolder }} creates="{{ rootFolder }}"
+  tags: demo
+
+- name: Create index.php
+  copy: src=index.php dest={{ rootFolder }} owner={{ username }} mode=0644
+  tags: demo
+
+- name: Copy assets
+  copy: src=assets dest={{ rootFolder }} owner={{ username }} mode=0644
+  tags: demo
+
+- name: Chown folder project
+  shell: chown {{ user }}:{{ group }} {{ rootFolder }} -Rf
+  tags: demo
