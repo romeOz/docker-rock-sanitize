@@ -1,4 +1,4 @@
-rootFolder: '/var/www/rock-sanitize'
+root_dir: '/var/www/rock-sanitize'
 
 username: vagrant
 
@@ -12,5 +12,5 @@ php_post_max_size: 25M
 
 vhosts:
   [
-    { name: 'rock.sanitize', rootFolder: '/var/www/rock-sanitize'}
+    { name: 'rock-sanitize', webroot_dir: '/var/www/rock-sanitize/public'}
   ]

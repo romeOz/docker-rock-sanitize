@@ -2,7 +2,11 @@
 
 use rock\sanitize\Sanitize;
 
-include_once(__DIR__ . '/vendor/autoload.php');
+if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+    die('need to use PHP version 5.4.x or greater');
+}
+
+require(dirname(__DIR__) . '/vendor/autoload.php');
 
 ?>
 <!DOCTYPE html>

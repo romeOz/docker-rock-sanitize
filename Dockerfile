@@ -16,8 +16,8 @@ RUN \
 RUN apt-get install -y ansible 
 
 # Add playbooks to the Docker image
-ADD ./ /var/tmp/
-WORKDIR /var/tmp/
+ADD ./ /var/www/rock-sanitize/
+WORKDIR /var/www/rock-sanitize/
 
 # Install ansible-playbook
 RUN ansible-playbook -v provisioning/docker.yml --inventory-file=provisioning/hosts -c local
