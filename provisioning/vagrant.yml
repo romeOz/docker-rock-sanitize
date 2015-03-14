@@ -1,6 +1,9 @@
 ---
 - hosts: vagrant
   sudo: true
+  vars_files:
+    - vars/all.yml
+    - vars/vagrant.yml
 
   roles:
     - initial

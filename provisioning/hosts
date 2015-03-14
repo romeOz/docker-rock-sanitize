@@ -1,5 +1,0 @@
-[vagrant]
-localhost ansible_connection=local
-
-[docker]
-localhost ansible_connection=local

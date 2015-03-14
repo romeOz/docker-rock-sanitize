@@ -1,6 +1,9 @@
 ---
 - hosts: docker
   sudo: true
+  vars_files:
+    - vars/all.yml
+    - vars/docker.yml
 
   roles:
     - initial

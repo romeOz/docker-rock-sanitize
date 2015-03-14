@@ -12,14 +12,14 @@ require(dirname(__DIR__) . '/vendor/autoload.php');
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Demo Rock sanitize</title>
+    <title>Demo Rock Sanitize</title>
     <link href="/assets/css/main.min.css" rel="stylesheet">
     <script src="/assets/js/main.min.js"></script>
 </head>
 <body>
 <div class="container main" role="main">
     <div class="demo-header">
-        <h1 class="demo-title">Demo Rock sanitize</h1>
+        <h1 class="demo-title">Demo Rock Sanitize</h1>
         <p class="lead demo-description">The example.</p>
     </div>
     <div class="demo-main">

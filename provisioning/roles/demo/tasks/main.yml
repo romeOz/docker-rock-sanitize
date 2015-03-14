@@ -1,3 +1,7 @@
 - name: Installing dependencies
   shell: composer require romeoz/rock-sanitize:* chdir={{ root_dir }}
   tags: demo
+
+- name: chown project
+  shell: chown {{ username }}:{{ username }} {{ root_dir }} -Rf
+  tags: demo

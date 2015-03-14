@@ -92,6 +92,6 @@ SCRIPT
     # Run Ansible provisioning inside the VM
     #
     config.vm.provision "shell" do |sh|
-        sh.inline = "chmod -x /vagrant/provisioning/hosts; ansible-playbook -v /vagrant/provisioning/main.yml --inventory-file=/vagrant/provisioning/hosts --connection=local"
+        sh.inline = "ansible-playbook -v /vagrant/provisioning/vagrant.yml -i 'vagrant,' --connection=local"
     end
 end
