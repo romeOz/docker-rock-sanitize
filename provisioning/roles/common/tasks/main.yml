@@ -11,10 +11,4 @@
     - python-software-properties
     - unzip
 
-- name: Add Ondřej Surý PPA
-  apt_repository: repo='ppa:ondrej/php5-5.6'
-
-- name: update apt cache
-  apt: update_cache=yes
-
 - include: ntp.yml

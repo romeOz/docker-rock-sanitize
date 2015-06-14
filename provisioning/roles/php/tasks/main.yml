@@ -1,3 +1,6 @@
+- name: 'Add repo PHP 5.6 (Ondřej Surý PPA)'
+  apt_repository: repo='ppa:ondrej/php5-5.6'
+
 - name: ensure PHP installed
   apt: pkg={{ item }} state=latest
   with_items:
