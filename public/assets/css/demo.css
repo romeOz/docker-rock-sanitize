@@ -36,17 +36,17 @@ h6, .h6 {
 
  /** Demo name and description*/
 
-.demo-header {
+.header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.demo-title {
+.title {
     margin-top: 30px;
     margin-bottom: 0;
     font-size: 60px;
     font-weight: normal;
 }
-.demo-description {
+.description {
     font-size: 20px;
     color: #999;
 }
@@ -54,7 +54,7 @@ h6, .h6 {
 
  /** Main column */
 
-.demo-main {
+.main {
     font-size: 18px;
     line-height: 1.5;
 }
@@ -62,28 +62,28 @@ h6, .h6 {
 
  /** Demo posts*/
 
-.demo-post {
+.post {
     margin-bottom: 60px;
 }
-.demo-post-title {
+.post-title {
     margin-bottom: 5px;
     font-size: 40px;
 }
-.demo-post-meta {
-    margin: 25px 0 5px 0;
+.post-meta {
+    margin: 20px 0 5px 0;
     color: #999;
 }
 
 
  /** Footer*/
 
-.demo-footer {
+.footer {
     padding: 40px 0;
     color: #999;
     text-align: center;
     background-color: #f9f9f9;
     border-top: 1px solid #e5e5e5;
 }
-.demo-footer p:last-child {
+.footer p:last-child {
     margin-bottom: 0;
 }
