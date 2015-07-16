@@ -1,0 +1,26 @@
+{
+  "name": "romeoz/vagrant-rock-sanitize",
+  "description": "Demo for Rock Sanitize",
+  "keywords": [
+    "rock",
+    "sanitize",
+    "demo"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "email": "serggalka@gmail.com",
+    "issues": "https://github.com/romeOz/vagrant-rock-sanitize/issues",
+    "source": "https://github.com/romeOz/vagrant-rock-sanitize"
+  },
+  "authors": [
+    {
+      "name": "Ruslan",
+      "email": "serggalka@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "romeoz/rock-sanitize": "0.10.*"
+  }
+}
