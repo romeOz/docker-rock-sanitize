@@ -1,4 +1,10 @@
 .git
 .gitignore
+src/composer.lock
+src/gulpfile.js
+src/package.json
+src/vendor
+src/public/assets/css/source/
+src/public/assets/js/source/
 LICENSE
 README.md
