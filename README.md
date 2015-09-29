@@ -21,6 +21,13 @@ docker run --name demo -d -p 8080:80 \
   romeoz/docker-rock-sanitize
 ```
  
+Out of the box
+-------------------
+ * Ubuntu 14.04.3 (LTS)
+ * Nginx 1.8.0
+ * PHP 5.6
+ * Composer
+  
 License
 -------------------
 
