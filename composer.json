@@ -1,5 +1,5 @@
 {
-  "name": "romeoz/vagrant-rock-sanitize",
+  "name": "romeoz/docker-rock-sanitize",
   "description": "Demo for Rock Sanitize",
   "keywords": [
     "rock",
@@ -10,8 +10,8 @@
   "license": "MIT",
   "support": {
     "email": "serggalka@gmail.com",
-    "issues": "https://github.com/romeOz/vagrant-rock-sanitize/issues",
-    "source": "https://github.com/romeOz/vagrant-rock-sanitize"
+    "issues": "https://github.com/romeOz/docker-rock-sanitize/issues",
+    "source": "https://github.com/romeOz/docker-rock-sanitize"
   },
   "authors": [
     {

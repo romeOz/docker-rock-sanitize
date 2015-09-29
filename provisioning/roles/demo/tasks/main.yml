@@ -1,7 +1,0 @@
-- name: Installing composer dependencies
-  composer: command=install working_dir={{ root_dir }} prefer_dist=yes no_dev=yes
-  tags: demo
-
-- name: chown project
-  shell: chown {{ username }}:{{ username }} {{ root_dir }} -Rf
-  tags: demo
