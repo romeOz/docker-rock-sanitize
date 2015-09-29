@@ -8,19 +8,6 @@ Installation
  * `docker run --name demo -d -p 8080:80 romeoz/docker-rock-sanitize`
  * Open demo [http://localhost:8080/](http://localhost:8080/)
 
-Development
--------------------
-
-For development a volume should be mounted at `/var/www/rock-sanitize/`.
-
-The updated run command looks like this.
-
-```bash
-docker run --name demo -d -p 8080:80 \
-  -v /host/to/path/app:/var/www/rock-sanitize/ \
-  romeoz/docker-rock-sanitize
-```
- 
 Out of the box
 -------------------
  * Ubuntu 14.04.3 (LTS)
