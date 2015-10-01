@@ -8,7 +8,8 @@ ADD ./src/ /var/www/rock-sanitize/
 
 WORKDIR /var/www/rock-sanitize/
 
-RUN composer install --prefer-dist --no-dev
+RUN composer install --prefer-dist --no-dev \
+    && chown www-data:www-data /var/www/rock-sanitize -R
 
 EXPOSE 80
 
